@@ -139,13 +139,13 @@
             <div>
                 <h3 class="text-xl font-semibold text-slate-800">PhD in Electrical Engineering</h3>
                 <p class="text-md text-purple-600">Arizona State University | Sep 2025 - Present</p>
-                <p class="text-slate-500 italic mt-1">Expected graduation: Spring 2027</p>
+                <p class="text-slate-500 italic mt-1">Expected graduation: Fall 2027</p>
             </div>
             <!-- PhD -->
-            <div>
+            <!--<div>
                 <h3 class="text-xl font-semibold text-slate-800">PhD in Computer Engineering</h3>
                 <p class="text-md text-purple-600">Northeastern University | Jan 2024 - Aug 2025</p>
-            </div>
+            </div> -->
 
             <!-- MSc -->
             <div>
@@ -169,53 +169,61 @@
                 <!-- Professional Experience Section -->
                 <section id="experience" class="mb-16 scroll-mt-24">
                      <div class="bg-white p-8 rounded-2xl shadow-md">
-                        <h2 class="text-2xl font-bold text-slate-900 border-b-2 border-blue-200 pb-2 mb-4">Professional Experience</h2>
+                        <h2 class="text-2xl font-bold text-slate-900 border-b-2 border-blue-200 pb-2 mb-4">Research Experience</h2>
                         <div class="space-y-6">
                             <div>
                                 <h3 class="text-xl font-semibold text-slate-800">Graduate Research Associate</h3>
                                 <p class="text-md text-purple-600">PROTON Lab, Arizona State University | Sep 2025 - Present</p>
                                 <p class="text-slate-500 italic mt-1">Supervisor: Dr. Eirini Eleni Tsiropoulou, Associate Professor</p>
 <ul class="list-disc list-inside text-slate-600 mt-2 space-y-1">
-    <li>Developed deep learning and deep reinforcement learning algorithms for intelligent wireless communication systems and autonomous networks.</li>
-    <li>Designed secure Integrated Sensing and Communications (ISAC) frameworks for resource allocation, wireless localization, and autonomous drone operations.</li>
-    <li>Developed game-theoretic and optimization-based methods for distributed decision-making, energy-efficient communications, and network intelligence.</li>
+    <li>Designed an agentic ISAC-aware emergency landing framework for drones, formulated as a constrained MDP and solved with Lagrangian PPO. It jointly optimizes descent and the sensing--communication power split under crash, SINR-outage, secrecy, and energy constraints, achieving 86% landing success and 95% secrecy-constraint satisfaction and outperforming Constrained SAC and non-ISAC baselines.</li>
+    <li>Developed FusionLander, a multi-task Swin Transformer model for joint semantic segmentation and monocular depth estimation in emergency landing-zone detection, reaching 88.31% mIoU and 0.086 AbsRel at 0.11s per frame and outperforming U-Net and DeepLabv3+.</li>
+    <li>Built a Maskable PPO scheduler for drone parcel pickup with a physics-based aerodynamic energy model and action masking for payload and battery limits, achieving about 2.6x the reward of heuristic baselines with roughly 47% lower energy per unit reward.</li>
+    <li>Proposed RECON, a regret-matching framework for distributed localization in GNSS-denied networks, achieving near brute-force accuracy at a fraction of the computation time with sub-second convergence for 30 nodes.</li>
 </ul>
                             </div>
                             <div>
                                 <h3 class="text-xl font-semibold text-slate-800">Graduate Research Assistant</h3>
                                 <p class="text-md text-purple-600">MENTIS Lab, Northeastern University | Jan 2024 - Aug 2025</p>
-                                <p class="text-slate-500 italic mt-1">Supervisor: Dr. Francesco Restuccia, Assistant Professor</p>
+                                <p class="text-slate-500 italic mt-1">Supervisor: Dr. Francesco Restuccia, Associate Professor</p>
 <ul class="list-disc list-inside text-slate-600 mt-2 space-y-1">
-    <li>Conducted research on mmWave MIMO, OFDM, and channel state information (CSI) processing for next-generation wireless systems.</li>
-    <li>Developed learning-based algorithms for adaptive channel sounding, MIMO feedback optimization, and beamforming in IEEE 802.11 wireless networks.</li>
-    <li>Designed CSI-based Integrated Sensing and Communications (ISAC) frameworks for wireless sensing and domain-adaptive gesture recognition using mmWave MIMO systems.</li>
+    <li>Led SHRINK, a learning-based channel sounding protocol for Wi-Fi MIMO, implemented on commercial routers through Nexmon firmware modification of Broadcom chipsets. It cut feedback airtime and data overhead by 81% versus IEEE 802.11ac and raised throughput 24.5% over state-of-the-art methods, with continual learning to adapt to new environments using under 5 s of data.</li>
+    <li>Co-developed MAGIC, a mmWave CSI-based gesture recognition system using temporal convolutional networks and meta-learning, achieving 99.24% accuracy and 98.82% in unseen environments and outperforming state-of-the-art domain adaptation methods by 14%.</li>
+    <li>Contributed to m3MIMO, a fully digital 8x8 mmWave MU-MIMO testbed (57-64 GHz, 1 GHz bandwidth) built on RFSoC SDRs, where digital beamforming improved BER by 13.3x and SNR by 2.05x.</li>
 </ul>
-                            </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+                <!-- Professional Experience Section -->
+                <section id="experience" class="mb-16 scroll-mt-24">
+                     <div class="bg-white p-8 rounded-2xl shadow-md">
+                        <h2 class="text-2xl font-bold text-slate-900 border-b-2 border-blue-200 pb-2 mb-4">Professional Experience</h2>
+                        <div class="space-y-6">
+                            
                             <div>
                                 <h3 class="text-xl font-semibold text-slate-800">Executive, Validation and Calibration Department</h3>
                                 <p class="text-md text-purple-600">Square Pharmaceuticals PLC, Gazipur, Bangladesh | Jan 2022 - Dec 2023</p>
 <ul class="list-disc list-inside text-slate-600 mt-2 space-y-1">
-    <li>Successfully completed equipment and systems qualification activities, ensuring industry standards and regulatory compliance.</li>
-    <li>Achieved 50+ successful validations by consistently following the cGMP guidelines and Validation Master Plan and actively participated in QMS activities, including 15 internal audits, document control, and continuous improvement initiatives.</li>
-    <li>Served as the main point of contact for auditors, confidently presenting validation and calibration activities.</li>
+    <li>Completed 50+ equipment and system validations in compliance with cGMP guidelines and the company's Validation Master Plan.</li>
+    <li>Took part in 15 internal quality management audits and served as the main point of contact for external auditors on validation and calibration activities.</li>
 </ul>
                             </div>
                             <div>
                                 <h3 class="text-xl font-semibold text-slate-800">Lecturer, Electrical and Electronic Engineering Department</h3>
                                 <p class="text-md text-purple-600">European University of Bangladesh, Dhaka, Bangladesh | Sep 2018 - Dec 2021</p>
 <ul class="list-disc list-inside text-slate-600 mt-2 space-y-1">
-    <li>Prepared and delivered courses and lab manuals, creating clear and concise instructions for students to follow.</li>
-    <li>Conducted theory and lab courses, facilitating hands-on learning experiences and ensuring adherence to safety protocols.</li>
-    <li>Supervised students and provided guidance on assignments and projects, contributing to successful academic outcomes.</li>
+    <li>Taught theory and laboratory courses in Signals and Systems, Digital Signal Processing, Wireless Communications, and Electrical Circuits I, developing course materials and lab manuals.</li>
+    <li>Supervised 15+ undergraduate thesis groups (3--4 students each) and student projects, guiding them from problem definition through design, implementation, and final defense.</li>
 </ul>
                             </div>
                             <div>
                                 <h3 class="text-xl font-semibold text-slate-800">Executive, Engineering Department</h3>
                                 <p class="text-md text-purple-600">Square Toiletries Limited, Narayanganj, Bangladesh | Aug 2017 - Sep 2018</p>
 <ul class="list-disc list-inside text-slate-600 mt-2 space-y-1">
-    <li>Optimized machinery performance through calibration and repairs, contributing to increased productivity and reduced waste.</li>
-    <li>Planned and directed projects focused on improving manufacturing processes and reducing costs, delivering successful outcomes on time and within budget.</li>
-    <li>Determined the necessary steps to bring systems into compliance with industry regulations and company standards, ensuring safety and quality in all operations.</li>
+    <li>Installed and commissioned new machinery in two projects, coordinating with suppliers and production teams, and maintained and calibrated production equipment to reduce downtime and material waste.</li>
+    <li>Led cost-reduction process improvement projects on schedule and within budget, and brought production systems into compliance with safety and regulatory standards.</li>
 </ul>
                             </div>
                         </div>
